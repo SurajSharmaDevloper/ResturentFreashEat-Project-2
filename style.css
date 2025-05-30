@@ -8,10 +8,10 @@
     --dark: #181818;
     --grey: #bcb8b1;
     --orange: #fc791a;
-    --text:#5C6574;
-    --background:#f4f1ea;
-    --border:#5c6574;
-    --background2:#373737;
+    --text: #5C6574;
+    --background: #f4f1ea;
+    --border: #5c6574;
+    --background2: #373737;
 }
 
 /* basic styles  */
@@ -215,7 +215,7 @@ section {
 /* auto slide coursel  */
 
 .slider-popular {
-    background-color:var(--background);
+    background-color: var(--background);
     min-height: 80vh;
     width: 100vw;
     display: flex;
@@ -309,7 +309,8 @@ section {
     color: #eb0029;
     font-weight: 800;
 }
-.slider .slide-track .slide .slide-content h3{
+
+.slider .slide-track .slide .slide-content h3 {
     font-size: 16px;
     color: #181818;
     font-weight: 400;
@@ -342,14 +343,15 @@ section {
     transform: rotateZ(100deg);
 }
 
-.about-section{
+.about-section {
     width: 100vw;
     height: 80vh;
 }
-.about-section .container{
+
+.about-section .container {
     display: flex;
     align-self: center;
-    background-image:url('./assets/about-section/asset 55.png');
+    background-image: url('./assets/about-section/asset 55.png');
     background-repeat: no-repeat;
     background-size: 700px;
     background-position: center;
@@ -357,34 +359,40 @@ section {
     height: 100%;
     background-color: var(--seconday);
 }
-.about-section .about-content{
+
+.about-section .about-content {
     text-align: center;
     display: grid;
     place-content: center;
 }
-.about-section .container .about-content div{
+
+.about-section .container .about-content div {
     width: 100%;
 }
-.about-section .container .about-img img{
-  height: 100%;
+
+.about-section .container .about-img img {
+    height: 100%;
 }
-.about-section .container .about-content h3{
+
+.about-section .container .about-content h3 {
     color: #FC791A;
     font-size: 22px;
     font-weight: bold;
 }
 
-.about-section .container .about-content h1{
+.about-section .container .about-content h1 {
     text-transform: capitalize;
     font-size: 46px;
     color: #181818;
 }
-.about-section .container .about-content p{
+
+.about-section .container .about-content p {
     font-size: 16px;
     color: var(--text);
     padding: 20px;
 }
-.about-section .container .about-content div button{
+
+.about-section .container .about-content div button {
     font-size: 18px;
     font-weight: 600;
     color: var(--seconday);
@@ -395,7 +403,8 @@ section {
     margin-top: 30px;
     border-radius: 5px;
 }
-.menu-section{
+
+.menu-section {
     width: 100vw;
     height: auto;
     background-color: var(--background);
@@ -403,32 +412,37 @@ section {
     align-items: center;
     justify-content: center;
 }
-.menu-section .container{
+
+.menu-section .container {
     width: 80vw;
     margin-top: 100px;
-    background-color:var(--seconday) ;
+    background-color: var(--seconday);
     text-align: center;
     padding: 50px;
     border-radius: 30px;
 }
-.menu-section .container .about-heading h3{
+
+.menu-section .container .about-heading h3 {
     color: #FC791A;
     font-size: 22px;
     font-weight: bold;
 }
-.menu-section .container .about-heading h1{
+
+.menu-section .container .about-heading h1 {
     text-transform: capitalize;
     font-size: 46px;
     color: #181818;
 
 }
-.menu-section .container .menu-list{
+
+.menu-section .container .menu-list {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin: 20px 0 ;
+    margin: 20px 0;
 }
-.menu-section .container .menu-list .menu-items{
+
+.menu-section .container .menu-list .menu-items {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -437,38 +451,45 @@ section {
     padding: 20px;
     border-bottom: 0.2px solid var(--border);
 }
-.menu-section .container .menu-list .menu-items a{
+
+.menu-section .container .menu-list .menu-items a {
     display: flex;
     align-items: center;
     gap: 5px;
     border-right: 0.2px dotted var(--border);
     padding: 5px 25px 5px 0;
     font-weight: 500;
-    color:var(--text);
+    color: var(--text);
 }
-.menu-section .container .menu-list .menu-items a:hover{
+
+.menu-section .container .menu-list .menu-items a:hover {
     color: var(--primary);
 }
-.menu-section .container .menu-list .menu-items a:last-child{
+
+.menu-section .container .menu-list .menu-items a:last-child {
     border: none;
 }
-.menu-dishes{
+
+.menu-dishes {
     margin-top: 50px;
     width: 100%;
     display: grid;
     place-content: center;
-    grid-template-columns: repeat( auto-fit , 500px);
+    grid-template-columns: repeat(auto-fit, 500px);
     gap: 10px;
-   
+
 }
-.menu-dishes .menu div:first-child{
+
+.menu-dishes .menu div:first-child {
     width: 80px;
     height: 80px;
 }
-.menu-dishes .menu div:nth-child(2){
+
+.menu-dishes .menu div:nth-child(2) {
     width: 60%;
 }
-.menu-dishes .menu{
+
+.menu-dishes .menu {
     text-align: start;
     width: 500px;
     display: flex;
@@ -480,28 +501,31 @@ section {
     -moz-box-shadow: 6px 13px 28px -26px rgba(66, 68, 90, 1);
     box-shadow: 6px 13px 28px -26px rgba(66, 68, 90, 1);
 }
-.menu-dishes .menu div h1{
+
+.menu-dishes .menu div h1 {
     color: var(--footer);
     font-size: 22px;
 }
 
-.menu-dishes .menu div p{
+.menu-dishes .menu div p {
     text-align: left;
     font-weight: 400;
     font-size: 14px;
     color: var(--text);
 }
-.menu-dishes .menu div h2{
+
+.menu-dishes .menu div h2 {
     text-align: left;
     font-weight: 600;
     font-size: 16px;
     color: var(--primary);
 }
 
-.News-section{
+.News-section {
     width: 100vw;
 }
-.News-section .container{
+
+.News-section .container {
     width: 90%;
     height: auto;
     background-color: var(--background);
@@ -511,24 +535,27 @@ section {
     align-items: center;
     justify-content: start;
 }
-.News-section .container .News-heading{
+
+.News-section .container .News-heading {
     width: 100%;
     height: 30%;
     text-align: center;
     padding: 30px;
 }
-.News-section .container .News-heading h3{
+
+.News-section .container .News-heading h3 {
     color: #FC791A;
     font-size: 22px;
     font-weight: bold;
 }
-.News-section .container .News-heading h2{
+
+.News-section .container .News-heading h2 {
     text-transform: capitalize;
     font-size: 46px;
     color: #181818;
 }
 
-.box-container{
+.box-container {
     margin-top: 50px;
     width: 100%;
     display: flex;
@@ -537,7 +564,8 @@ section {
     flex-wrap: wrap;
 
 }
-.box{
+
+.box {
     background-color: #ffffff;
     width: 400px;
     margin: 20px;
@@ -545,47 +573,51 @@ section {
     -moz-box-shadow: 6px 13px 28px -26px rgba(66, 68, 90, 1);
     box-shadow: 6px 13px 28px -26px rgba(66, 68, 90, 1);
 }
-.box .label{
+
+.box .label {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 10px;
     width: 90%;
     margin: 10px auto;
-    border-radius:10px ;
+    border-radius: 10px;
     color: var(--text);
 }
 
-.box .label .Date{
-   width: 80px;
-   height: 100%;
-   display: flex;
-   flex-direction: column;
-   padding: 5px;
-   align-items: center;
-   justify-content: center;
-   border-radius: 10px;
-   background-color: var(--primary);
-   color: var(--seconday);
+.box .label .Date {
+    width: 80px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: var(--primary);
+    color: var(--seconday);
 
 }
 
-.box img{
+.box img {
     width: 100%;
 }
-.box .label div:nth-child(2){
+
+.box .label div:nth-child(2) {
     width: 40%;
     height: 100%;
     display: flex;
     align-items: center;
     gap: 5px;
-   
+
 }
-.box .label div i{
+
+.box .label div i {
     color: var(--primary);
     font-size: 18px;
 }
-.box .label div:nth-child(3){
+
+.box .label div:nth-child(3) {
     gap: 5px;
     width: 40%;
     display: flex;
@@ -593,39 +625,44 @@ section {
     align-items: center;
 
 }
-.box .desc{
+
+.box .desc {
     width: 100%;
     padding: 10px;
 }
-.box .desc h1{
+
+.box .desc h1 {
     font-size: 22px;
     color: var(--dark);
 }
-.box .desc button{
-    padding: 10px 0 ;
-    margin-top:5px ;
+
+.box .desc button {
+    padding: 10px 0;
+    margin-top: 5px;
     border: none;
     background: transparent;
-    font-size:14px ;
+    font-size: 14px;
     display: flex;
     gap: 5px;
     align-items: center;
     font-weight: 600;
     color: #212529;
 }
-.box .desc button:hover{
-    color: var(--primary);
-}
-.box .desc button:hover > i{
+
+.box .desc button:hover {
     color: var(--primary);
 }
 
-.chef-section{
+.box .desc button:hover>i {
+    color: var(--primary);
+}
+
+.chef-section {
     width: 100vw;
- 
+
 }
 
-.chef-section .container{
+.chef-section .container {
     width: 90%;
     height: auto;
     margin: 100px auto;
@@ -636,21 +673,21 @@ section {
     text-align: center;
 }
 
-.chef-section .container .Employees-heading h3{
+.chef-section .container .Employees-heading h3 {
     color: #FC791A;
     font-size: 28px;
     font-weight: bold;
 }
 
 
-.chef-section .container .Employees-heading h2{
+.chef-section .container .Employees-heading h2 {
     text-transform: capitalize;
     font-size: 46px;
     color: #181818;
 }
 
 
-.chef-section .container .chef-container{
+.chef-section .container .chef-container {
     width: 100%;
     margin: 50px auto;
     display: flex;
@@ -659,32 +696,36 @@ section {
     flex-wrap: wrap;
     align-items: center;
 }
-.chef-section .container .chef-container .chef{
-    padding-bottom:10px ;
+
+.chef-section .container .chef-container .chef {
+    padding-bottom: 10px;
     margin: 20px;
     background-color: var(--seconday);
     border-top-left-radius: 35%;
     border-top-right-radius: 35%;
-    border-bottom-left-radius:15px ;
-    border-bottom-right-radius:15px ;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
     -webkit-box-shadow: 6px 13px 28px -26px rgba(66, 68, 90, 1);
     -moz-box-shadow: 6px 13px 28px -26px rgba(66, 68, 90, 1);
     box-shadow: 6px 13px 28px -26px rgba(66, 68, 90, 1);
 
 
 }
-.chef-section .container .chef-container .chef h1{
+
+.chef-section .container .chef-container .chef h1 {
     font-size: 28px;
     font-weight: 700;
-    color:var(--dark);
+    color: var(--dark);
     padding: 10px;
 }
-.chef-section .container .chef-container .chef p{
+
+.chef-section .container .chef-container .chef p {
     font-size: 16px;
     font-weight: 400;
-    color:var(--dark);
+    color: var(--dark);
 }
-.chef-section .container .chef-container .chef .social-connect{
+
+.chef-section .container .chef-container .chef .social-connect {
     width: 100%;
     display: flex;
     align-items: center;
@@ -692,7 +733,8 @@ section {
     gap: 20px;
     padding: 20px;
 }
-.chef-section .container .chef-container .chef .social-connect div{
+
+.chef-section .container .chef-container .chef .social-connect div {
     width: 40px;
     height: 40px;
     border: 1px solid var(--dark);
@@ -700,24 +742,29 @@ section {
     display: grid;
     place-items: center;
 }
-.chef-section .container .chef-container .chef .social-connect div i{
+
+.chef-section .container .chef-container .chef .social-connect div i {
     color: var(--dark);
     font-size: 18px;
 }
-.chef-section .container .chef-container .chef .social-connect div:hover{
+
+.chef-section .container .chef-container .chef .social-connect div:hover {
     color: var(--seconday);
     background-color: var(--primary);
 }
-.chef-section .container .chef-container .chef .social-connect div:hover > i{
+
+.chef-section .container .chef-container .chef .social-connect div:hover>i {
     color: var(--seconday);
     background-color: var(--primary);
 }
-.Offer-section{
+
+.Offer-section {
     width: 100vw;
     height: auto;
     padding: 20px;
 }
-.Offer-section .container{
+
+.Offer-section .container {
     background-image: url('./assets/offer-img/asset\ 114.png');
     background-position: center;
     background-size: cover;
@@ -728,51 +775,59 @@ section {
     justify-content: space-around;
     align-items: center;
 }
-.Offer-section .container .offer-img{
+
+.Offer-section .container .offer-img {
     width: 40%;
     height: 100%;
     display: grid;
     place-content: center;
 }
-.Offer-section .container .offer-img img{
+
+.Offer-section .container .offer-img img {
     width: 100%;
 
 }
-.Offer-section .container .count-down{
+
+.Offer-section .container .count-down {
     width: 50%;
 }
-.Offer-section .container .count-down .timer div h3{
+
+.Offer-section .container .count-down .timer div h3 {
     color: #FC791A;
     font-size: 28px;
     font-weight: bold;
     word-spacing: 5px;
 }
-.Offer-section .container .count-down .timer div h3 img{
+
+.Offer-section .container .count-down .timer div h3 img {
     margin: 0 5px;
 }
-.Offer-section .container .count-down .timer div h2{
+
+.Offer-section .container .count-down .timer div h2 {
     text-transform: capitalize;
     font-size: 46px;
     color: var(--seconday);
 
 }
-.Offer-section .container .count-down .timer div .timer-counter{
+
+.Offer-section .container .count-down .timer div .timer-counter {
     background-color: var(--orange);
     width: 80%;
     height: auto;
-    border-radius:15px ;
+    border-radius: 15px;
     padding: 5px 15px;
     margin-top: 10px;
 }
-.Offer-section .container .count-down .timer div .timer-counter #demo{
-    text-align:start;
+
+.Offer-section .container .count-down .timer div .timer-counter #demo {
+    text-align: start;
     font-size: 60px;
     margin-top: 0px;
     z-index: 12;
-    color:var(--footer);
+    color: var(--footer);
 }
 
-.Offer-section .container .count-down .timer div button{
+.Offer-section .container .count-down .timer div button {
     font-size: 18px;
     font-weight: 600;
     color: var(--seconday);
@@ -783,6 +838,7 @@ section {
     margin-top: 30px;
     border-radius: 12px;
 }
+
 .Testonomial {
     margin-top: 30px;
     width: 100vw;
@@ -790,27 +846,221 @@ section {
     background-color: var(--background2);
 
 }
-.Testonomial .containeer{
+
+.Testonomial .containeer {
+    padding: 30px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 30px;
     width: 100%;
     height: 100%;
 }
-.Testonomial .containeer .test-image{
+
+.Testonomial .containeer .test-image {
     display: flex;
     justify-content: start;
     width: 50%;
 }
-.Testonomial .containeer .test-image{
+
+.Testonomial .containeer .test-image {
     height: 100%;
 }
-.Testonomial .containeer .userReview{
-    width: 500px;
-    background-color: wheat;
+
+.Testonomial .containeer .userReview {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
+}
+
+.Testonomial .containeer .userReview .heading {
+    text-align: center;
+    padding: 20px;
+}
+
+.Testonomial .containeer .userReview .heading h3 {
+    color: var(--orange);
+    font-size: 28px;
+}
+
+.Testonomial .containeer .userReview .heading h3 img {
+    width: 28px;
+}
+
+.Testonomial .containeer .userReview .heading h2 {
+    color: var(--background);
+    font-size: 40px;
+}
+
+.Testonomial .containeer .userReview .Review-container {
+    background-color: var(--seconday);
+    border-radius: 20px;
+}
+
+.Testonomial .containeer .userReview .Review-container .primary img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.Testonomial .containeer .userReview .Review-container .primary {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 30px;
+}
+
+.Testonomial .containeer .userReview .Review-container .primary .data h1 {
+    font-size: 25px;
+    color: var(--dark);
+}
+
+.Testonomial .containeer .userReview .Review-container .primary .data p {
+    font-size: 16px;
+    color: var(--background2);
+}
+
+.Testonomial .containeer .userReview .Review-container .primary .data span i {
+    color: var(--orange);
+}
+
+.Testonomial .containeer .userReview .Review-container .primary .data span i:last-child {
+    color: var(--text);
+}
+
+.Testonomial .containeer .userReview .Review-container .secondary {
+    padding: 30px;
+}
+
+.Testonomial .containeer .userReview .Review-container .secondary p {
+    text-align: start;
+    font-size: 20px;
+}
+
+.offer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.offer div.Limited-Time-Offer {
+    background: url(./assets/back-3.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: blue;
+}
+
+.offer div.Limited-Time-Offer {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer div.Limited-Time-Offer .left {
+    width: 50%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: start;
+}
+
+.offer div.Limited-Time-Offer .left .sub {
+    width: 80%;
+}
+
+.offer div.Limited-Time-Offer .left h2 {
+    font-size: 24px;
+    color: var(--primary);
+}
+
+.offer div.Limited-Time-Offer .left h1 {
+    font-size: 45px;
+    padding: 10px 0;
+    color: var(--seconday);
+}
+
+.offer div.Limited-Time-Offer .left h3 {
+    font-size: 28px;
+    padding: 20px 0;
+    color: var(--orange);
+}
+
+.offer div.Limited-Time-Offer .left button {
+    font-size: 18px;
+    background-color: var(--primary);
+    border: none;
+    outline: none;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--seconday);
+    font-weight: 600;
+}
+
+.offer div.Limited-Time-Offer .right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer div.Limited-Time-Offer .right .image {
+    width: 80%;
+}
+
+.offer div.Limited-Time-Offer .right img {
+    width: 100%;
+}
+
+.offer .slider-content {
+    width: 100%;
+    margin-top: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.offer div.slider-content .slider-container {
+    padding: 10px;
+    overflow: hidden;
+    width: 80%;
+    height: 200px;
+    position: relative;
+}
+
+.slider-track {
+    display: flex;
+    gap: 30px;
+    width: calc(100% * 8);
+    /* 4 images * 2 (duplicate set) */
+    animation: scroll 100s ease-in-out infinite;
+}
+
+.offer div.slider-content .slider-container .slide {
+    flex: 0 0 25%;
+    /* 4 slides in 100% width */
+    max-width: 200px;
+
+}
+
+.offer div.slider-content .slider-container .slide img {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
 }
