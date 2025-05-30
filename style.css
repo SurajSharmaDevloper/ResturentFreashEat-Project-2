@@ -803,9 +803,14 @@ section {
     justify-content: start;
     width: 50%;
 }
+.Testonomial .containeer .test-image{
+    height: 100%;
+}
 .Testonomial .containeer .userReview{
     width: 500px;
-
     background-color: wheat;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
